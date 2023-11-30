@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Player</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+</head>
+
+<body>
+  <div id="outer">
+    <div class="music-box-outer">
+      <div id="top">Music Player</div>
+      <hr>
+      <div id="middle">
+        <div class="artist-img"></div>
+      </div>
+      <div id="bottom">
+        <h1>EliZa</h1>
+        <input type="range" value="0" id="musicRange">
+        <div id="time">
+          <div class="left">00:00</div>
+          <div class="right">04:10</div>
+        </div>
+        <div class="buttons">
+          <div class="cir-box">
+            <i class="ri-skip-back-fill"></i>
+          </div>
+          <div class=" cir-box cir-box-mid">
+            <i class="ri-play-fill"></i>
+
+          </div>
+          <div class="cir-box">
+            <i class="ri-skip-forward-fill"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
